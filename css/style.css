@@ -1,0 +1,104 @@
+/******************** BODY ********************/
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/******************** HEADER ******************/
+
+header {
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+header a {
+    color: slategrey;
+    margin-left: 24px;
+}
+
+header a:hover {
+    color: black;
+}
+
+header a:visited {
+    color: black;
+}
+
+/******************** HERO SECTION ************/
+
+#hero-section{
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.col-6 {
+    position: absolute;
+    background-color: mediumseagreen;
+    height: 70px;
+    margin-top: 150px;
+    margin-left: 24px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/******************** ICONS *******************/
+
+
+
+/******************** RECENT WORK *************/
+
+
+
+/******************** FROM THE BLOG ***********/
+
+
+
+/******************** RESUME ******************/
+
+#resume {
+    background-color: rgb(20, 20, 20);
+    color: gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    #footer {
+        background-color: black;
+        color: white;
+    }
+    
+    @media screen and (max-width: 1024px) {
+        
+        #hero-section p {
+            
+            font-size: 30px;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        
+        #hero-section p {
+            
+            font-size: 20px;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        
+        #hero-section p {
+            
+            font-size: 12px;
+        }
+    }
+
+/******************** OTHERS ******************/
+
+hr {
+    border: 1px solid lightgrey;
+    
+}
+
+
